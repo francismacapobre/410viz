@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+Note: In order to make authenticated requests to GitHub API, please create a new ```.env``` file at the root of the project with the following:
+```
+REACT_APP_USERNAME='your-github-username'
+REACT_APP_PASSWORD='your-github-password'
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
